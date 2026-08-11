@@ -1,9 +1,9 @@
 <?php
 
-namespace ScrapyardIO\Waveforms\Distance;
+namespace Waveforms\Distance;
 
-use Fabricate\Contracts\Sensors\Enums\DistanceUnit;
-use Fabricate\Contracts\Sensors\Measurements\DistanceEvent;
+use Waveforms\Contracts\Distance\DistanceEvent;
+use Waveforms\Contracts\Distance\DistanceUnit;
 
 class ProximityData extends DistanceEvent
 {
